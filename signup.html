@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+<head>
+    <title>Sign Up - K Groups</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container mx-auto">
+        <nav class="py-4 mr-auto">
+            <div class="flex items-center justify-between">
+                <a href="#" class="flex items-center">
+                    <svg id="logo-38" width="78" height="32" viewBox="0 0 78 32" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M55.5 0H77.5L58.5 32H36.5L55.5 0Z" class="ccustom" fill="#FF7A00"></path>
+                        <path d="M35.5 0H51.5L32.5 32H16.5L35.5 0Z" class="ccompli1" fill="#FF9736"></path>
+                        <path d="M19.5 0H31.5L12.5 32H0.5L19.5 0Z" class="ccompli2" fill="#FFBC7D"></path>
+                    </svg> 
+                    <span class="font-great-vibes text-2xl">
+                        <span class="text-gray-950 text-4xl" style="letter-spacing: 10px;">K</span>Groups 
+                    </span>
+                </a>
+                <ul class="flex items-center space-x-4">
+                    <li><a href="#" class="text-gray-700 text-lg hover:text-black hover:font-medium">Home</a></li>
+                    <li><a href="#" class="text-gray-700 text-lg hover:text-black hover:font-medium">Services</a></li>
+                    <li><a href="#" class="text-gray-700 text-lg hover:text-black hover:font-medium">About</a></li>
+                    <li><a href="#" class="text-gray-700 text-lg hover:text-black hover:font-medium">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container mx-auto flex justify-center items-center h-screen">
+        <div class="w-full max-w-md bg-gray-100 p-8 rounded-2xl shadow-lg">
+            <h1 class="text-3xl font-bold text-center text-orange-500">Sign Up</h1>
+            <p class="text-center text-xl text-black mt-2">Join <span class="font-great-vibes font-medium">K Groups</span> and Explore </p>
+
+            <form action="#" method="POST" class="mt-6">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700 font-medium">Full Name</label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        placeholder="Enter your full name" 
+                        class="w-full px-4 py-2 mt-1 text-gray-800 bg-white border rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500">
+                </div>
+
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700 font-medium">Email Address</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="Enter your email" 
+                        class="w-full px-4 py-2 mt-1 text-gray-800 bg-white border rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500">
+                </div>
+
+                <div class="mb-4">
+                    <label for="password" class="block text-gray-700 font-medium">Password</label>
+                    <input 
+                        type="password" 
+                        id="password" 
+                        name="password" 
+                        placeholder="Create a password" 
+                        class="w-full px-4 py-2 mt-1 text-gray-800 bg-white border rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500">
+                </div>
+
+                <div class="mb-6">
+                    <label for="confirm-password" class="block text-gray-700 font-medium">Confirm Password</label>
+                    <input 
+                        type="password" 
+                        id="confirm-password" 
+                        name="confirm-password" 
+                        placeholder="Confirm your password" 
+                        class="w-full px-4 py-2 mt-1 text-gray-800 bg-white border rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500">
+                </div>
+
+                <button 
+                    type="submit" 
+                    class="w-full px-4 py-2 text-white bg-orange-500 rounded-lg hover:bg-orange-700 font-bold">
+                    Sign Up
+                </button>
+
+                <p class="text-center text-gray-600 text-sm mt-4">
+                    Already have an account? <a href="#" class="text-orange-500 font-medium hover:underline">Log In</a>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
